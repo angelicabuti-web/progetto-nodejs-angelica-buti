@@ -21,6 +21,31 @@ Non è previsto un front end. Le API possono essere provate tramite Postman.
 - dotenv
 - Postman
 
+
+## Struttura del progetto
+
+```text
+progetto-nodejs-angelica-buti/
+│
+├── controllers/
+│   ├── productsController.js
+│   ├── usersController.js
+│   └── ordersController.js
+│
+├── routes/
+│   ├── productsRoutes.js
+│   ├── usersRoutes.js
+│   └── ordersRoutes.js
+│
+├── app.js
+├── index.js
+├── db.js
+├── migrations.sql
+├── .env.example
+├── package.json
+└── README.md
+
+
 ## Requisiti
 
 Prima di avviare il progetto è necessario installare:
